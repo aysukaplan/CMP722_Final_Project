@@ -71,3 +71,10 @@ python /pidnet/TTA/tta_per_img_full_scalar_entropy.py --guidance_scale 1.0
 ```bash
 # Example usage for segformer-b5
 python /Segformer/tta_per_img_full_scalar_entropy.py --guidance_scale 1.0
+```
+### Results
+PIDNet-L experiment results can be found in the following folder:
+pidnet/logs_pidnet
+
+Segformer-b5 experiment results can be found in the following folder:
+Segformer/logs_segformer
