@@ -1,0 +1,140 @@
+12/27/2025 00:38:43 - INFO - __main__ - Starting SDEdit Baseline with args: Namespace(dataloader_batch_size=1, max_images=10, seed=42, num_inference_steps=50, start_step_idx=49, r='/datavolume/data/aysu/ACDC/rgb_anon', g='/datavolume/data/aysu/ACDC/gt_trainval/gt')
+12/27/2025 00:38:43 - INFO - __main__ - Loading SD Models...
+12/27/2025 00:38:55 - INFO - __main__ - Loading SegFormer: nvidia/segformer-b5-finetuned-cityscapes-1024-1024
+12/27/2025 00:39:03 - INFO - __main__ - Generating Gaussian Kernel for patch size (1024, 1024) and stride (512, 512)
+12/27/2025 00:39:03 - INFO - __main__ - --- Processing fog ---
+12/27/2025 00:39:24 - INFO - __main__ - Image 0 (GOPR0476_frame_000769_rgb_anon.png) mIoU: 70.30%
+12/27/2025 00:39:45 - INFO - __main__ - Image 1 (GOPR0476_frame_000845_rgb_anon.png) mIoU: 69.67%
+12/27/2025 00:40:05 - INFO - __main__ - Image 2 (GOPR0476_frame_000874_rgb_anon.png) mIoU: 68.20%
+12/27/2025 00:40:26 - INFO - __main__ - Image 3 (GOPR0476_frame_001029_rgb_anon.png) mIoU: 63.17%
+12/27/2025 00:40:44 - INFO - __main__ - Image 4 (GOPR0476_frame_001033_rgb_anon.png) mIoU: 63.70%
+12/27/2025 00:41:01 - INFO - __main__ - Image 5 (GP010476_frame_000018_rgb_anon.png) mIoU: 64.42%
+12/27/2025 00:41:19 - INFO - __main__ - Image 6 (GP010476_frame_000120_rgb_anon.png) mIoU: 57.84%
+12/27/2025 00:41:37 - INFO - __main__ - Image 7 (GP010476_frame_000147_rgb_anon.png) mIoU: 49.92%
+12/27/2025 00:41:55 - INFO - __main__ - Image 8 (GP020475_frame_000054_rgb_anon.png) mIoU: 44.05%
+12/27/2025 00:42:10 - INFO - __main__ - Image 9 (GP020475_frame_000173_rgb_anon.png) mIoU: 63.59%
+12/27/2025 00:42:10 - INFO - __main__ - === Results for fog ===
+12/27/2025 00:42:10 - INFO - __main__ - Average Per-Image mIoU: 61.49% (For Debugging)
+12/27/2025 00:42:10 - INFO - __main__ - Full Dataset mIoU:      68.00% (Official Cityscapes Metric)
+12/27/2025 00:42:10 - INFO - __main__ - Per-Class IoU:
+12/27/2025 00:42:10 - INFO - __main__ -   road           : 96.83%
+12/27/2025 00:42:10 - INFO - __main__ -   sidewalk       : 78.44%
+12/27/2025 00:42:10 - INFO - __main__ -   building       : 87.00%
+12/27/2025 00:42:10 - INFO - __main__ -   wall           : 70.79%
+12/27/2025 00:42:10 - INFO - __main__ -   fence          : 51.31%
+12/27/2025 00:42:10 - INFO - __main__ -   pole           : 46.01%
+12/27/2025 00:42:10 - INFO - __main__ -   traffic light  : 61.78%
+12/27/2025 00:42:10 - INFO - __main__ -   traffic sign   : 80.47%
+12/27/2025 00:42:10 - INFO - __main__ -   vegetation     : 85.40%
+12/27/2025 00:42:10 - INFO - __main__ -   terrain        : 49.21%
+12/27/2025 00:42:10 - INFO - __main__ -   sky            : 97.51%
+12/27/2025 00:42:10 - INFO - __main__ -   person         : 63.75%
+12/27/2025 00:42:10 - INFO - __main__ -   rider          : 74.64%
+12/27/2025 00:42:10 - INFO - __main__ -   car            : 90.57%
+12/27/2025 00:42:10 - INFO - __main__ -   truck          : 0.00%
+12/27/2025 00:42:10 - INFO - __main__ -   bus            : nan%
+12/27/2025 00:42:10 - INFO - __main__ -   train          : 94.60%
+12/27/2025 00:42:10 - INFO - __main__ -   motorcycle     : nan%
+12/27/2025 00:42:10 - INFO - __main__ -   bicycle        : 27.74%
+12/27/2025 00:42:10 - INFO - __main__ - --- Processing night ---
+12/27/2025 00:42:30 - INFO - __main__ - Image 0 (GOPR0351_frame_000039_rgb_anon.png) mIoU: 25.22%
+12/27/2025 00:42:52 - INFO - __main__ - Image 1 (GOPR0351_frame_000061_rgb_anon.png) mIoU: 21.41%
+12/27/2025 00:43:10 - INFO - __main__ - Image 2 (GOPR0351_frame_000079_rgb_anon.png) mIoU: 34.49%
+12/27/2025 00:43:32 - INFO - __main__ - Image 3 (GOPR0351_frame_000724_rgb_anon.png) mIoU: 36.33%
+12/27/2025 00:43:46 - INFO - __main__ - Image 4 (GOPR0356_frame_000327_rgb_anon.png) mIoU: 23.33%
+12/27/2025 00:44:04 - INFO - __main__ - Image 5 (GOPR0356_frame_000348_rgb_anon.png) mIoU: 19.69%
+12/27/2025 00:44:20 - INFO - __main__ - Image 6 (GOPR0356_frame_000372_rgb_anon.png) mIoU: 26.86%
+12/27/2025 00:44:36 - INFO - __main__ - Image 7 (GOPR0356_frame_000382_rgb_anon.png) mIoU: 35.88%
+12/27/2025 00:44:55 - INFO - __main__ - Image 8 (GOPR0356_frame_000404_rgb_anon.png) mIoU: 32.38%
+12/27/2025 00:45:09 - INFO - __main__ - Image 9 (GOPR0356_frame_000473_rgb_anon.png) mIoU: 19.43%
+12/27/2025 00:45:09 - INFO - __main__ - === Results for night ===
+12/27/2025 00:45:09 - INFO - __main__ - Average Per-Image mIoU: 27.50% (For Debugging)
+12/27/2025 00:45:09 - INFO - __main__ - Full Dataset mIoU:      35.94% (Official Cityscapes Metric)
+12/27/2025 00:45:09 - INFO - __main__ - Per-Class IoU:
+12/27/2025 00:45:09 - INFO - __main__ -   road           : 81.90%
+12/27/2025 00:45:09 - INFO - __main__ -   sidewalk       : 31.11%
+12/27/2025 00:45:09 - INFO - __main__ -   building       : 51.18%
+12/27/2025 00:45:09 - INFO - __main__ -   wall           : 19.00%
+12/27/2025 00:45:09 - INFO - __main__ -   fence          : 38.89%
+12/27/2025 00:45:09 - INFO - __main__ -   pole           : 45.50%
+12/27/2025 00:45:09 - INFO - __main__ -   traffic light  : 68.76%
+12/27/2025 00:45:09 - INFO - __main__ -   traffic sign   : 22.18%
+12/27/2025 00:45:09 - INFO - __main__ -   vegetation     : 51.75%
+12/27/2025 00:45:09 - INFO - __main__ -   terrain        : 16.40%
+12/27/2025 00:45:09 - INFO - __main__ -   sky            : 0.80%
+12/27/2025 00:45:09 - INFO - __main__ -   person         : 0.04%
+12/27/2025 00:45:09 - INFO - __main__ -   rider          : 66.70%
+12/27/2025 00:45:09 - INFO - __main__ -   car            : 78.59%
+12/27/2025 00:45:09 - INFO - __main__ -   truck          : 0.00%
+12/27/2025 00:45:09 - INFO - __main__ -   bus            : nan%
+12/27/2025 00:45:09 - INFO - __main__ -   train          : 56.79%
+12/27/2025 00:45:09 - INFO - __main__ -   motorcycle     : 0.00%
+12/27/2025 00:45:09 - INFO - __main__ -   bicycle        : 17.31%
+12/27/2025 00:45:09 - INFO - __main__ - --- Processing rain ---
+12/27/2025 00:45:31 - INFO - __main__ - Image 0 (GOPR0400_frame_000087_rgb_anon.png) mIoU: 45.32%
+12/27/2025 00:45:51 - INFO - __main__ - Image 1 (GOPR0402_frame_000154_rgb_anon.png) mIoU: 66.46%
+12/27/2025 00:46:12 - INFO - __main__ - Image 2 (GOPR0402_frame_000294_rgb_anon.png) mIoU: 50.41%
+12/27/2025 00:46:32 - INFO - __main__ - Image 3 (GOPR0572_frame_000752_rgb_anon.png) mIoU: 56.32%
+12/27/2025 00:46:50 - INFO - __main__ - Image 4 (GOPR0572_frame_000756_rgb_anon.png) mIoU: 41.13%
+12/27/2025 00:47:07 - INFO - __main__ - Image 5 (GOPR0572_frame_000860_rgb_anon.png) mIoU: 44.41%
+12/27/2025 00:47:25 - INFO - __main__ - Image 6 (GP020402_frame_000774_rgb_anon.png) mIoU: 56.58%
+12/27/2025 00:47:43 - INFO - __main__ - Image 7 (GP020402_frame_000830_rgb_anon.png) mIoU: 59.60%
+12/27/2025 00:48:01 - INFO - __main__ - Image 8 (GP020402_frame_000914_rgb_anon.png) mIoU: 59.37%
+12/27/2025 00:48:16 - INFO - __main__ - Image 9 (GP030400_frame_000129_rgb_anon.png) mIoU: 63.02%
+12/27/2025 00:48:16 - INFO - __main__ - === Results for rain ===
+12/27/2025 00:48:16 - INFO - __main__ - Average Per-Image mIoU: 54.26% (For Debugging)
+12/27/2025 00:48:16 - INFO - __main__ - Full Dataset mIoU:      50.75% (Official Cityscapes Metric)
+12/27/2025 00:48:16 - INFO - __main__ - Per-Class IoU:
+12/27/2025 00:48:16 - INFO - __main__ -   road           : 90.49%
+12/27/2025 00:48:16 - INFO - __main__ -   sidewalk       : 63.02%
+12/27/2025 00:48:16 - INFO - __main__ -   building       : 89.40%
+12/27/2025 00:48:16 - INFO - __main__ -   wall           : 60.84%
+12/27/2025 00:48:16 - INFO - __main__ -   fence          : 35.05%
+12/27/2025 00:48:16 - INFO - __main__ -   pole           : 38.25%
+12/27/2025 00:48:16 - INFO - __main__ -   traffic light  : 32.29%
+12/27/2025 00:48:16 - INFO - __main__ -   traffic sign   : 65.21%
+12/27/2025 00:48:16 - INFO - __main__ -   vegetation     : 89.87%
+12/27/2025 00:48:16 - INFO - __main__ -   terrain        : 54.42%
+12/27/2025 00:48:16 - INFO - __main__ -   sky            : 98.36%
+12/27/2025 00:48:16 - INFO - __main__ -   person         : 49.45%
+12/27/2025 00:48:16 - INFO - __main__ -   rider          : 0.00%
+12/27/2025 00:48:16 - INFO - __main__ -   car            : 90.56%
+12/27/2025 00:48:16 - INFO - __main__ -   truck          : 0.00%
+12/27/2025 00:48:16 - INFO - __main__ -   bus            : 37.68%
+12/27/2025 00:48:16 - INFO - __main__ -   train          : 0.00%
+12/27/2025 00:48:16 - INFO - __main__ -   motorcycle     : 69.28%
+12/27/2025 00:48:16 - INFO - __main__ -   bicycle        : 0.00%
+12/27/2025 00:48:16 - INFO - __main__ - --- Processing snow ---
+12/27/2025 00:48:37 - INFO - __main__ - Image 0 (GOPR0122_frame_000018_rgb_anon.png) mIoU: 32.82%
+12/27/2025 00:48:58 - INFO - __main__ - Image 1 (GOPR0122_frame_000085_rgb_anon.png) mIoU: 66.62%
+12/27/2025 00:49:18 - INFO - __main__ - Image 2 (GOPR0122_frame_000306_rgb_anon.png) mIoU: 51.82%
+12/27/2025 00:49:35 - INFO - __main__ - Image 3 (GOPR0604_frame_000327_rgb_anon.png) mIoU: 41.94%
+12/27/2025 00:49:53 - INFO - __main__ - Image 4 (GOPR0604_frame_000332_rgb_anon.png) mIoU: 51.80%
+12/27/2025 00:50:11 - INFO - __main__ - Image 5 (GOPR0604_frame_000455_rgb_anon.png) mIoU: 49.01%
+12/27/2025 00:50:26 - INFO - __main__ - Image 6 (GOPR0606_frame_000220_rgb_anon.png) mIoU: 53.02%
+12/27/2025 00:50:44 - INFO - __main__ - Image 7 (GOPR0606_frame_000357_rgb_anon.png) mIoU: 46.71%
+12/27/2025 00:50:59 - INFO - __main__ - Image 8 (GP010607_frame_000931_rgb_anon.png) mIoU: 35.37%
+12/27/2025 00:51:14 - INFO - __main__ - Image 9 (GP030176_frame_000549_rgb_anon.png) mIoU: 41.72%
+12/27/2025 00:51:14 - INFO - __main__ - === Results for snow ===
+12/27/2025 00:51:14 - INFO - __main__ - Average Per-Image mIoU: 47.08% (For Debugging)
+12/27/2025 00:51:14 - INFO - __main__ - Full Dataset mIoU:      46.22% (Official Cityscapes Metric)
+12/27/2025 00:51:14 - INFO - __main__ - Per-Class IoU:
+12/27/2025 00:51:14 - INFO - __main__ -   road           : 90.47%
+12/27/2025 00:51:14 - INFO - __main__ -   sidewalk       : 53.18%
+12/27/2025 00:51:14 - INFO - __main__ -   building       : 76.18%
+12/27/2025 00:51:14 - INFO - __main__ -   wall           : 17.70%
+12/27/2025 00:51:14 - INFO - __main__ -   fence          : 45.45%
+12/27/2025 00:51:14 - INFO - __main__ -   pole           : 43.65%
+12/27/2025 00:51:14 - INFO - __main__ -   traffic light  : 50.38%
+12/27/2025 00:51:14 - INFO - __main__ -   traffic sign   : 62.94%
+12/27/2025 00:51:14 - INFO - __main__ -   vegetation     : 85.97%
+12/27/2025 00:51:14 - INFO - __main__ -   terrain        : 2.30%
+12/27/2025 00:51:14 - INFO - __main__ -   sky            : 96.50%
+12/27/2025 00:51:14 - INFO - __main__ -   person         : 27.18%
+12/27/2025 00:51:14 - INFO - __main__ -   rider          : 0.00%
+12/27/2025 00:51:14 - INFO - __main__ -   car            : 82.19%
+12/27/2025 00:51:14 - INFO - __main__ -   truck          : 90.68%
+12/27/2025 00:51:14 - INFO - __main__ -   bus            : 52.11%
+12/27/2025 00:51:14 - INFO - __main__ -   train          : 0.00%
+12/27/2025 00:51:14 - INFO - __main__ -   motorcycle     : 0.00%
+12/27/2025 00:51:14 - INFO - __main__ -   bicycle        : 1.23%
